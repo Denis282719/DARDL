@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Denis Andre Roche de Leon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .personal-info, .skills, .interests {
+            margin-left: 20px;
+        }
+        .personal-info p, .skills ul, .interests ul {
+            margin: 5px 0;
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Currículum Vitae</h1>
+
+    <div class="section">
+        <h2>Denis Andre Roche de Leon</h2>
+        <div class="personal-info">
+            <p><strong>Estado civil:</strong> Soltero</p>
+            <p><strong>Fecha de nacimiento:</strong> 18 de agosto de 1990</p>
+            <p><strong>Nacionalidad:</strong> Ciudadano de la UE (Polaco)</p>
+            <p><strong>Dirección:</strong> 38/16 Kopernika Street, 14-200 Iława, Polonia</p>
+            <p><strong>Teléfono móvil:</strong> +48 0 500-076-002</p>
+            <p><strong>Email:</strong> pidzi21@interia.pl</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Educación</h3>
+        <p>2006 - 2010: Técnicas en Tecnología de la Madera en el Grupo de Escuela de Construcción, nombre Bohaterów Września 1939r. en Iława.</p>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Experiencia</h3>
+        <p><strong>04/2008 - 05/2008:</strong> Práctica profesional como carpintero. Carpintería - Benedykt Iglielski.</p>
+        <p><strong>10/2008 - 11/2008:</strong> Práctica profesional como ensamblador de muebles. MM Szynaka Living Sp. Z o.o.</p>
+        <p><strong>09/2008 - 04/2010:</strong> Práctica profesional como ensamblador de muebles, pintor en el Distrito del Centro de Entrenamiento Práctico en Iława.</p>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Habilidades</h3>
+        <div class="skills">
+            <ul>
+                <li>Licencia de conducir</li>
+                <li>Capacidad para trabajar en grupo, creatividad, manejo de la presión, rápida adaptación a nuevas condiciones operativas</li>
+                <li>Conocimientos informáticos: Windows, MS-Word, Excel, Internet</li>
+                <li>Nociones de trabajo en red</li>
+                <li>Responsabilidad, confiabilidad, puntualidad</li>
+                <li>Primeros auxilios, resucitación cardiopulmonar</li>
+                <li>Idiomas:
+                    <ul>
+                        <li>Polaco - Nativo</li>
+                        <li>Inglés - Avanzado, tanto escrito como hablado</li>
+                        <li>Alemán - Básico</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Intereses</h3>
+        <div class="interests">
+            <ul>
+                <li>Deporte</li>
+                <li>Deportes de combate</li>
+                <li>Música</li>
+                <li>Pesca</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
